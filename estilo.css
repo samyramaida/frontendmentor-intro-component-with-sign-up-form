@@ -1,0 +1,280 @@
+@media screen and (min-width: 376px){
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url('/images/bg-intro-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    background-color: rgb(218, 73, 80);
+    background-image: url('/images/bg-intro-desktop.png');
+    opacity: 0.9;
+    width: 850px;
+    height: 550px;
+    margin: auto;
+}
+
+#container h1{
+    color: #fff;
+    padding-top: 175px;
+    padding-left: 80px;
+    font-size: 40px;
+}
+
+#container p {
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 400px;
+    font-size: 13px;
+}
+
+#sign-up {
+    background-color: rgb(114, 44, 194);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.822);
+    width: 380px;
+    height: 36px;
+    float: right;
+    margin-top: -260px;
+    margin-right: 40px;
+}
+
+#sign-up p {
+    color: rgb(212, 211, 211);
+    margin: 0px;
+    padding: 0px;
+    font-size: 10pt;
+    text-align: center;
+    padding-top: 12px;
+    font-weight: lighter;
+}
+
+#sign-up span{
+    font-weight: bolder;
+    color: #fff;
+}
+
+#form {
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+    width: 380px;
+    height: 310px;
+    float: right;
+    margin-right: 40px;
+    margin-top: -210px;
+    
+}
+
+#form input {
+    margin-left: 22px;  
+    margin-right: 30px;  
+    width: 310px;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-top: 10px;
+    border: 1px solid rgb(58, 58, 58);
+    
+}
+
+#form #submit {
+    margin-left: 34px;
+    width: 310px;
+    background-color: rgb(39, 173, 100);
+    border: 1px solid rgb(13, 97, 50);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+form {
+    margin-top: 20px;
+}
+
+#form p, #form span {
+    color: rgb(61, 60, 60);
+    margin: 0px;
+    padding: 0px;
+    font-size: 8pt;
+    text-align: center;
+    padding-top: 8px;
+}
+
+#form span {
+    color: rgb(218, 73, 80);
+}
+
+footer {
+    margin-top: 10px;
+    margin-left: 260px;
+    font-size: 10pt;
+}
+
+footer a {
+    color: rgb(218, 73, 80);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(13, 97, 50);
+    text-decoration: none;
+}
+}
+
+@media screen and (max-width: 375px){
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body, html {
+        height: 100%;
+    }
+    
+    body {
+        background-image: url('/images/bg-intro-desktop.png');
+        background-repeat: repeat;
+        background-color: rgb(218, 73, 80);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #container {
+        background-color: rgb(218, 73, 80);
+        background-image: url('/images/bg-intro-desktop.png');
+        background-repeat: repeat;
+        opacity: 0.9;
+        width: 850px;
+        height: 550px;
+        margin: auto;
+    }
+
+    #container h1{
+        color: #fff;
+        padding-top: 100px;
+        padding-left: 40px;
+        font-size: 40px;
+    }
+    
+    #container p {
+        color: #fff;
+        padding-top: 20px;
+        margin-right: 470px;
+        padding-bottom: 40px;
+        text-align: center;        
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #sign-up {
+        background-color: rgb(114, 44, 194);
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.822);
+        margin-left: 220px;
+        margin-right: 530px;
+        width: 280px;
+        height: 70px;
+        float: right;
+    }
+    
+    #sign-up p {
+        color: rgb(212, 211, 211);
+        margin: 0px;
+        padding: 0px;
+        font-size: 10pt;
+        text-align: center;
+        padding-top: 12px;
+        font-weight: lighter;
+        font-size: 14pt;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    #sign-up span{
+        font-weight: bolder;
+        color: #fff;
+    }
+
+    #form {
+        background-color: #fff;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.603);
+        border-radius: 10px;
+        width: 320px;
+        height: 310px;
+        float: right;
+        margin-left: 90px;
+        margin-right: 500px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    }
+    
+    #form input {
+        margin-left: 22px;  
+        margin-right: 30px;  
+        width: 255px;
+        height: 35px;
+        border-radius: 5px;
+        padding-left: 20px;
+        margin-top: 10px;
+        border: 1px solid rgb(58, 58, 58);
+        
+    }
+    
+    #form #submit {
+        margin-left: 34px;
+        width: 255px;
+        background-color: rgb(39, 173, 100);
+        border: 1px solid rgb(13, 97, 50);
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    form {
+        margin-top: 20px;
+    }
+    
+    #form p, #form span {
+        color: rgb(61, 60, 60);
+        margin: 0px;
+        padding: 0px;
+        font-size: 8pt;
+        text-align: center;
+        padding-top: 8px;
+    }
+    
+    #form span {
+        color: rgb(218, 73, 80);
+    }
+
+    footer {
+        margin-top: 80px;
+        margin-left: 33px;
+        padding-top: 10px;
+        font-size: 10pt;
+    }
+    
+    footer a {
+        color: rgb(13, 97, 50);
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+}
